@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/DifficultyMenu.unity
+    guid: 3fa54f107e068d3498ec74f7dd267594
+  - enabled: 1
+    path: Assets/Scenes/ShootingGame.unity
+    guid: dcea492248a595a4fba77c3c76cf48e1
+  - enabled: 1
+    path: Assets/Scenes/InteractGame.unity
+    guid: 5e2c587a6a03f694594a4a777ea4a48f
+  - enabled: 1
+    path: Assets/Scenes/SpiderPlayGame.unity
+    guid: 521395ba619082f49a62fb5c172c9da5
+  m_configObjects: {}
