@@ -7,6 +7,10 @@ TagManager:
   - SpiderShooter
   - ScoreCanvas
   - ScoreOnBanner
+  - TimerSlider
+  - SliderFill
+  - TimerText
+  - GameOverText
   layers:
   - Default
   - TransparentFX

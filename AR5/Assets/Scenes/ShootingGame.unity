@@ -330,6 +330,7 @@ GameObject:
   - component: {fileID: 535349035}
   - component: {fileID: 535349036}
   - component: {fileID: 535349037}
+  - component: {fileID: 535349038}
   m_Layer: 0
   m_Name: ShooterScript
   m_TagString: Untagged
@@ -378,6 +379,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 642936fb1334faa4590e9a473d92c1d2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &535349038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535349034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f69e217ed6866154a8724190c4df2e3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameTime: 20
+  normalFillColor:
+    serializedVersion: 2
+    rgba: 4278247628
+  warningFillColor:
+    serializedVersion: 2
+    rgba: 4278190335
+  warningLimit: 10
+  stopTimer: 0
 --- !u!1 &718158042
 GameObject:
   m_ObjectHideFlags: 0
