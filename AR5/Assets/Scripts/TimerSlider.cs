@@ -10,7 +10,7 @@ public class TimerSlider : MonoBehaviour
     Slider timerSlider;
     TextMeshProUGUI timerText;
 
-    public float gameTime = 20.0f;
+    public float gameTime = 30.0f;
 
     Image fillImage;
     public Color32 normalFillColor;
