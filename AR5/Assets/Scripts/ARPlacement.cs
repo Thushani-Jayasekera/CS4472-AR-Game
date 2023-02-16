@@ -22,16 +22,14 @@ public class ARPlacement : MonoBehaviour
     // Update placement indicator, placement pose and spawn 
     void Update()
     {
+        
+        UpdatePlacementPose();
+        UpdatePlacementIndicator();
+
         if(spawnedObject == null && placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
             ARPlaceObject();
         }
-
-
-        UpdatePlacementPose();
-        UpdatePlacementIndicator();
-
-
     }
     void UpdatePlacementIndicator()
     {

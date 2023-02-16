@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - SpiderShooter
+  - ScoreCanvas
+  - ScoreOnBanner
+  - TimerSlider
+  - SliderFill
+  - TimerText
+  - GameOverText
   layers:
   - Default
   - TransparentFX
