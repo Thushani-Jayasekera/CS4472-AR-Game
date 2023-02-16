@@ -4,11 +4,12 @@ using UnityEngine;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.XR.ARSubsystems;
 
-public class ARPlacement : MonoBehaviour
+public class ARPlacementShooter : MonoBehaviour
 {
 
     public GameObject arObjectToSpawn;
     public GameObject placementIndicator;
+    public GameObject shoot;
     private GameObject spawnedObject;
     private Pose PlacementPose;
     private ARRaycastManager aRRaycastManager;
@@ -17,20 +18,23 @@ public class ARPlacement : MonoBehaviour
     void Start()
     {
         aRRaycastManager = FindObjectOfType<ARRaycastManager>();
+        shoot.SetActive(false);
     }
 
     // Update placement indicator, placement pose and spawn 
     void Update()
     {
-        
         UpdatePlacementPose();
         UpdatePlacementIndicator();
 
         if(spawnedObject == null && placementPoseIsValid && Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Began)
         {
             ARPlaceObject();
+            shoot.SetActive(true);
         }
+
     }
+
     void UpdatePlacementIndicator()
     {
         if(spawnedObject == null && placementPoseIsValid)
