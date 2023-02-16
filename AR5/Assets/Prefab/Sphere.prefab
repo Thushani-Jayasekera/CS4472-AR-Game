@@ -62,7 +62,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: cf7f780c66844dd41aaab05957a66091, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -126,3 +126,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosion: {fileID: 8096776311876036114, guid: 6f72820fc0088b4469b0b353104e7221, type: 3}
+  scoreToSpawn: {fileID: 4107519489258020237, guid: 7d430bcd8849c3d468635f491efa0f23, type: 3}
+  enemyToSpawn: {fileID: 12182726067848735, guid: d3140f8c4e8f9234ea22994bca72fcc0, type: 3}
+  waitTime: 3
