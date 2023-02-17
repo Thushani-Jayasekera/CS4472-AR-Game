@@ -763,7 +763,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 323, y: -904}
+  m_AnchoredPosition: {x: 323, y: -755}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &635969265
@@ -975,7 +975,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -174}
+  m_AnchoredPosition: {x: 0, y: -127}
   m_SizeDelta: {x: 900, y: 290}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &751595870
@@ -1409,7 +1409,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 5, y: 912}
+  m_AnchoredPosition: {x: 5, y: 787}
   m_SizeDelta: {x: 1000, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1134079568
@@ -1566,14 +1566,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Easy Level : kdjfksjdfksjfksjfksjfksjfksjfskjfksjfksjfskjds
+  m_text: 'Easy Level : spawns 2 spiders and the game duration is 20 seconds
 
 
     Medium
-    Level : skdksjfksjfsknsknfsmnfksnfksnf
+    Level : spawns 6 spiders and the game duration is 30 seconds
 
 
-    Hard Level : ekfksjfksjfkfjksjfksjfksjfksjfksjfksjff'
+    Hard Level
+    : spawns 10 spiders and the game duration is 40 seconds'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1799,7 +1800,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: 
 --- !u!222 &1762906317
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1923,7 +1924,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -626}
+  m_AnchoredPosition: {x: 0, y: -524}
   m_SizeDelta: {x: 900, y: 290}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2013068585
@@ -2242,7 +2243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1152545055345547363, guid: 8f8302358375b3b4c98448ce1e8ad72b, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -905
+      value: -756
       objectReference: {fileID: 0}
     - target: {fileID: 1152545055345547363, guid: 8f8302358375b3b4c98448ce1e8ad72b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
