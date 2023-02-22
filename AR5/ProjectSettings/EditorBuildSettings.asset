@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DifficultyMenu.unity
     guid: 3fa54f107e068d3498ec74f7dd267594
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ShootingGame.unity
     guid: dcea492248a595a4fba77c3c76cf48e1
   - enabled: 1

@@ -641,6 +641,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: clickBack
       objectReference: {fileID: 0}
+    - target: {fileID: 3658209364101903042, guid: 71968985f27a57740a14f41c3ed4e3ce, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: BacktoDifficulty, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7758991901278088293, guid: 71968985f27a57740a14f41c3ed4e3ce, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -733,13 +737,13 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 71968985f27a57740a14f41c3ed4e3ce, type: 3}
 --- !u!114 &1311474247 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 7758991901278088294, guid: 71968985f27a57740a14f41c3ed4e3ce, type: 3}
+  m_CorrespondingSourceObject: {fileID: 1183485553658530275, guid: 71968985f27a57740a14f41c3ed4e3ce, type: 3}
   m_PrefabInstance: {fileID: 1311474246}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed6244372ca2a5f4b9ee6d4d775fe713, type: 3}
+  m_Script: {fileID: 11500000, guid: 88a216dbb3f0715408f57fb4e380cf31, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &1626862358

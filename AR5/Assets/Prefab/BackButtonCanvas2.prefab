@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 7758991901278088292}
   - component: {fileID: 7758991901278088299}
   - component: {fileID: 7758991901278088298}
-  - component: {fileID: 1183485553658530275}
+  - component: {fileID: 1642842669825688801}
   m_Layer: 5
-  m_Name: BackButtonCanvas
+  m_Name: BackButtonCanvas2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -101,7 +101,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &1183485553658530275
+--- !u!114 &1642842669825688801
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,7 +110,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7758991901278088297}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88a216dbb3f0715408f57fb4e380cf31, type: 3}
+  m_Script: {fileID: 11500000, guid: ed6244372ca2a5f4b9ee6d4d775fe713, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &7758991901274769991

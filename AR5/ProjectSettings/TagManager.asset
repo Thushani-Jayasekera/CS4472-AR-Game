@@ -11,6 +11,11 @@ TagManager:
   - SliderFill
   - TimerText
   - GameOverText
+  - TempTag
+  - HighScoreTag
+  - EasyHighScore
+  - MediumHighScore
+  - HardHighScore
   layers:
   - Default
   - TransparentFX
